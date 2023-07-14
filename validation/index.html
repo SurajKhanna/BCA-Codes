@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <marquee>Hello Pista</marquee>
+    <form name = "abc">
+    <ul>
+        <li>Information available on website:</li>   
+        <br>
+    <input type="radio" id = "information1" name="1" value="Very Good"> Very Good 
+    <input type="radio" id = "information2" name = "1" value="Good"> Good
+    <input type="radio" id = "information3" name = "1" value="Satisfactory"> Satisfactory
+    
+    <br>
+        <li>Overall Experience Using This Website:</li>
+    
+    <br>
+
+    <input type="radio" id = "experience1" name="2" value="Very Good"> Very Good 
+    <input type="radio" id = "experience2" name = "2" value="Good"> Good
+    <input type="radio" id = "experience3" name = "2" value="Satisfactory"> Satisfactory
+</ul>
+
+
+ Comments: <textarea id = "comment" placeholder="Enter Comments..."></textarea> <br><br><br>
+ Your Name: <input type = "text" id = "yourname" placeholder="Enter Name..."><br><br><br>
+ Your Address: <textarea id = "address" placeholder="Enter Address..."></textarea> <br><br><br>
+ Email: <input type = "text" id = "email" placeholder="Enter Email..."><br><br><br>
+ Number: <input type = "number" id = "number" placeholder="Enter Number..." onfocusout="validateNumber()"><br><br><br>
+
+ <input type = "reset"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <button type = "button" onclick="validateField()"> Upload </button>
+
+ <div id = "status"></div>
+</form>
+
+
+
+</body>
+</html>
